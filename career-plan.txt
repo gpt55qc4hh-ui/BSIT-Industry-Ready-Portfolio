@@ -1,0 +1,29 @@
+MY IT CAREER DEVELOPMENT PLAN - Cyran Mae Secorata
+
+Target Position: (e.g., Junior Web Developer / IT Support Specialist)
+Target IT Field: (e.g., Web Development)
+
+My Current Skills:
+- HTML, CSS, JavaScript
+- Basic SQL
+- (Add your other skills)
+
+Skills I Need to Improve:
+- Advanced JavaScript frameworks (React/Vue)
+- Backend development (Node.js or PHP)
+- Networking hardware configuration
+
+Technologies I Plan to Learn:
+- (e.g., React.js, MongoDB, AWS Cloud)
+
+Certifications I May Pursue:
+- (e.g., Cisco CCNA, CompTIA A+, freeCodeCamp Certifications)
+
+My 6-Month Goal:
+- (e.g., Land my first entry-level IT job or internship and build 2 more personal projects)
+
+My 1-Year Goal:
+- (e.g., Become proficient in full-stack development and contribute to an open-source project)
+
+My 3-Year Professional Goal:
+- (e.g., Become a Mid-Level Developer or IT Team Lead)
