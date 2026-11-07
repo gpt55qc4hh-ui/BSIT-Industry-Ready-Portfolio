@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Changed the title to include your name -->
+    <title>Cyran Mae Secorata | BSIT Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using Bootstrap for quick, responsive design -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Changed the brand name -->
+            <a class="navbar-brand" href="#home">Cyran's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem-solving">Problem Solving</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ai-usage">AI Usage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <!-- THE MAGIC BUTTON: Toggle Edit Mode -->
+                <button id="editToggle" class="btn btn-warning ms-3">Enable Edit Mode</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HOME SECTION -->
+    <section id="home" class="hero-section text-center">
+        <div class="container">
+            <!-- Changed your name here -->
+            <h1 contenteditable="false">Cyran Mae Secorata</h1>
+            <p class="lead" contenteditable="false">BSIT Graduate | Aspiring IT Professional</p>
+            <a href="#projects" class="btn btn-primary btn-lg mt-3">VIEW MY PROJECTS</a>
+            <a href="#" class="btn btn-outline-light btn-lg mt-3">DOWNLOAD RESUME</a>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT ME / PROFILE -->
+    <section id="about" class="container mt-5">
+        <h2>Professional Profile</h2>
+        <div class="card p-4">
+            <!-- Updated the intro text to include your name -->
+            <p contenteditable="false">
+                I am Cyran Mae Secorata, a BSIT graduate with skills in Web Development, Database Management, and Networking. 
+                I am interested in pursuing a career as a Full-Stack Developer. Throughout my academic journey, 
+                I have built functional systems and developed strong problem-solving skills. 
+                (Tap "Enable Edit Mode" to change this text).
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. TECHNICAL SKILLS -->
+    <section id="skills" class="container mt-5">
+        <h2>Technical Skills</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <h4>Programming & Web</h4>
+                <ul class="list-group">
+                    <li class="list-group-item" contenteditable="false">HTML / CSS / JavaScript</li>
+                    <li class="list-group-item" contenteditable="false">Python / Java</li>
+                    <li class="list-group-item" contenteditable="false">SQL / MySQL / Database Design</li>
+                </ul>
+            </div>
+            <div class="col-md-6 mb-3">
+                <h4>Tools & Networking</h4>
+                <ul class="list-group">
+                    <li class="list-group-item" contenteditable="false">Git / GitHub (Version Control)</li>
+                    <li class="list-group-item" contenteditable="false">Networking & Troubleshooting</li>
+                    <li class="list-group-item" contenteditable="false">Basic Cybersecurity & AI Tools</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROJECTS -->
+    <section id="projects" class="container mt-5">
+        <h2>Projects</h2>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title" contenteditable="false">Project 1: Web/Application Development</h4>
+                <p class="card-text" contenteditable="false">
+                    <strong>System:</strong> AI-Assisted Student Management System.<br>
+                    <strong>Description:</strong> A full-stack web application to manage student records, grades, and attendance. Includes CRUD operations and authentication.
+                </p>
+                <a href="#" class="btn btn-dark">GitHub Repo</a>
+                <a href="#" class="btn btn-success">Live Demo</a>
+            </div>
+        </div>
+        
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title" contenteditable="false">Project 2: Data / Database Project</h4>
+                <p class="card-text" contenteditable="false">
+                    <strong>System:</strong> Computer Shop Sales Analysis.<br>
+                    <strong>Description:</strong> Data analysis project tracking sales trends, inventory, and customer purchasing behavior using SQL and Excel.
+                </p>
+                <a href="#" class="btn btn-dark">GitHub Repo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PROBLEM-SOLVING & TROUBLESHOOTING -->
+    <section id="problem-solving" class="container mt-5">
+        <h2>Problem-Solving & Troubleshooting</h2>
+        <div class="accordion" id="troubleshootingAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#case1">
+                        Case 1: Computer cannot connect to Wi-Fi
+                    </button>
+                </h2>
+                <div id="case1" class="accordion-collapse collapse show" data-bs-parent="#troubleshootingAccordion">
+                    <div class="accordion-body" contenteditable="false">
+                        <strong>Problem:</strong> Computer cannot connect to Wi-Fi.<br>
+                        <strong>Possible Causes:</strong> Disabled adapter, incorrect IP configuration, router problem, or DNS issue.<br>
+                        <strong>Diagnostic Procedure:</strong> Checked adapter status, ran ipconfig, pinged router.<br>
+                        <strong>Solution:</strong> Restarted router and flushed DNS.<br>
+                        <strong>Lesson Learned:</strong> Always start with physical connections before software configs.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CYBERSECURITY CASE STUDY -->
+    <section id="cybersecurity" class="container mt-5">
+        <h2>Cybersecurity Case Study</h2>
+        <div class="card p-4">
+            <h4 contenteditable="false">SQL Injection Vulnerability</h4>
+            <p contenteditable="false"><strong>Vulnerability:</strong> Malicious SQL statements inserted into entry fields.</p>
+            <p contenteditable="false"><strong>Risks:</strong> Attackers can view, modify, or delete sensitive data.</p>
+            <p contenteditable="false"><strong>Prevention:</strong> Use prepared statements, validate user input, and apply least privilege.</p>
+        </div>
+    </section>
+
+    <!-- 7. AI USAGE EVIDENCE -->
+    <section id="ai-usage" class="container mt-5">
+        <h2>AI Literacy Evidence</h2>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Date</th>
+                    <th>Task</th>
+                    <th>AI Assistance</th>
+                    <th>My Verification</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="false">Oct 15, 2023</td>
+                    <td contenteditable="false">Debugging JS</td>
+                    <td contenteditable="false">AI suggested fixing an event listener.</td>
+                    <td contenteditable="false">Tested in browser; it worked perfectly.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 8. CONTACT -->
+    <section id="contact" class="container mt-5 mb-5">
+        <h2>Contact Me</h2>
+        <div class="card p-4">
+            <p contenteditable="false"><strong>Email:</strong> cyran.secorata@gmail.com (Change this to your real email)</p>
+            <p contenteditable="false"><strong>LinkedIn:</strong> linkedin.com/in/yourname</p>
+            <p contenteditable="false"><strong>GitHub:</strong> github.com/yourusername</p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <!-- Changed footer text -->
+        <p>&copy; 2024 Cyran Mae Secorata. BSIT Portfolio. All Rights Reserved.</p>
+    </footer>
+<!-- 9. DOWNLOADS & DOCUMENTATION -->
+    <section id="downloads" class="container mt-5 mb-5">
+        <h2>Project Documentation & Downloads</h2>
+        <div class="card p-4">
+            <p>Below are the required documents for my BSIT Industry-Ready Portfolio.</p>
+            <ul class="list-group mt-3">
+                <!-- You will upload these files to your GitHub later and put the links here -->
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Professional Resume (PDF)
+                    <a href="#" class="btn btn-sm btn-primary">Download</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    IT Career Development Plan
+                    <a href="#" class="btn btn-sm btn-primary">View Plan</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Final Reflection (500-800 words)
+                    <a href="#" class="btn btn-sm btn-primary">Read Reflection</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Project 1 System Documentation (PDF)
+                    <a href="#" class="btn btn-sm btn-primary">Download</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
